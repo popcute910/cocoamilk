@@ -1,13 +1,14 @@
 {% load static %}
 <html>
     <head>
+        <!-- Google Font -->
         <link rel="stylesheet" href="{% static '/css/instaclone.css' %}">
         <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
-
+        <!-- レスポンシブデザイン -->
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-
+        <!-- icon -->
         <script src="https://kit.fontawesome.com/3168943f53.js" crossorigin="anonymous"></script>
     </head>
 
@@ -21,7 +22,7 @@
                             <a href="/"><i class="fa-solid fa-house fa-lg"></i></a>
                         </li>
                         <li>
-                            <a href="/"><i class="fa-solid fa-square-plus fa-lg"></i></a>
+                            <a href="{% url 'post_new' %}"><i class="fa-solid fa-square-plus fa-lg"></i></a>
                         </li>
                     </ul>
                 </nav>
