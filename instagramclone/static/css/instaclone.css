@@ -47,11 +47,15 @@ header{
 
 .header-contents nav{
     float: right;
+    padding-right: 20px;
 }
 
 .header-contents nav ul li{
-    display: inline-block;
     margin-left: 20px;
+}
+
+.fa-solid{
+    vertical-align: middle;
 }
 
 #toptitle-style{
